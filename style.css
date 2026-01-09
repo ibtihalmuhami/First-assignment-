@@ -54,8 +54,60 @@ nav .menu a{
     align-self: center;
     
 }
-.banner{
-    width: 2042px;
-    max-height: 1363px;
+#banner{
     
+    border: 5px solid red;
+    background: url(./assets/hero-bg.png),rgba(0, 25, 49, 0.8);
+    object-fit: fill;
+    width: 1300px;
+    height: 700px ;
+    
+    background-repeat: no-repeat;
+
+}
+
+#banner .banner-content h1 {
+    font-family: Inter;
+    font-style: Bold;
+    font-size: 72px;
+    line-height: 80px;
+    height: 500px;
+    text-transform: capitalize;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 16 px;
+    align-items: center;
+    justify-content: center;
+
+}
+.color-orrange{
+    color: #30B868;
+    
+}
+#banner .banner-content h5 {
+    color: rgb(225, 211, 211);
+
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 24px;
+    align-items: center;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    margin-left:50px ;
+    
+
+}
+#banner .banner-content h4{
+    margin-left: 495px;
+    padding: 20px;
+}
+.top-btn{
+    order: -1 ;
+    align-items: center;
+    margin-left: 500px;
+    border-radius: 30px;
+    
+
 }
