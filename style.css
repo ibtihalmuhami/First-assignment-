@@ -137,6 +137,11 @@ nav .menu a{
 }
 .end-buton{
     backface-visibility: none;
+    cursor: pointer;
+
+}
+.end-buton:hover{
+    background-color: antiquewhite;
 }
 #notes{
     border: 1px;
@@ -280,7 +285,7 @@ nav .menu a{
     font-size: 12px;
 }
 #footer {
-    width: 1260px;
+    width: 1300px;
     height: 348px;
     background-color: #001931;
     color: #FFFFFF;
