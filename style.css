@@ -45,7 +45,11 @@ nav .menu a{
     font-weight: bolder;
     margin-left: 120px;
     border-radius: 5px;
+    cursor: pointer;
 
+}
+.btn:hover{
+    background-color: #047934;
 }
 
 
@@ -108,8 +112,31 @@ nav .menu a{
     align-items: center;
     margin-left: 500px;
     border-radius: 30px;
+    color :rgb(68, 165, 68) ;
+    background-color:whitesmoke ;
+    width: 200px;
+    height: fit-content;
+    cursor: pointer;
 
 
+
+
+}
+.top-btn:hover{
+    background-color: rgb(194, 206, 217);
+}
+.end-btn{
+    background-color: #30B868;
+    color: #FFFFFF;
+    width: 230px;
+    height: fit-content;
+    cursor: pointer;
+}
+.end-btn:hover{
+    background-color: #047934;
+}
+.end-buton{
+    backface-visibility: none;
 }
 #notes{
     border: 1px;
@@ -234,22 +261,62 @@ nav .menu a{
     padding: 5px;
     font-size: 12px;
 }
-#about .button{
+#about .button  {
     background-color: #30B868;
-    color: white;
-    padding: 12px 16px;
-    font-size: 16px;
-    font-weight: bolder;
-    
+    color: #FFFFFF;
+    display: inline-block;
     border-radius: 5px;
-    justify-content: space-between;
-
+    padding: 10px 20px;
     margin-left: 590px;
+    text-decoration: none;
+
+    
+
+    
 
 }
 #about .copy{
     text-align: center;
     font-size: 12px;
+}
+#footer {
+    width: 1260px;
+    height: 348px;
+    background-color: #001931;
+    color: #FFFFFF;
+
+
+}
+#footer .img-4{
+    width: 139px;
+    max-height: 60px;
+    margin-left: 25px ;
+    padding-top: 35px;
+
+    
+
+}
+#footer .social {
+    
+    margin-left: 960px;
+    display:flex;
+    justify-content: space-between;
+    
+    
+
+    
+}
+#footer .social img {
+    transform: translateX(-155px);
+    padding-top: 25px;
+}
+
+#footer .part{
+    margin-left: -50px;
+    text-align: center;
+    font-size: 8px;
+    transform: translateY(200px);
+
 }
 
 
