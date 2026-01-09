@@ -161,7 +161,7 @@ nav .menu a{
 }
 
 #brain{
-    border: 14px solid yellow;
+    
     width: 1260px;
     height: 822px;
     
@@ -215,7 +215,45 @@ nav .menu a{
     display: flex;
     padding: 8px;
 
+
 }
+#about .ready-section{
+    text-align: center;
+    padding: 25px;
+    font-size: 30px;
+
+}
+#about .join-section{
+    text-align: center;
+    padding:15px ;
+    font-size: 12px;
+
+}
+#about .start{
+    text-align: center;
+    padding: 5px;
+    font-size: 12px;
+}
+#about .button{
+    background-color: #30B868;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: bolder;
+    
+    border-radius: 5px;
+    justify-content: space-between;
+
+    margin-left: 590px;
+
+}
+#about .copy{
+    text-align: center;
+    font-size: 12px;
+}
+
+
+
 
 
 
